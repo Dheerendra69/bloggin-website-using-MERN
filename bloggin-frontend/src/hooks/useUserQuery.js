@@ -4,7 +4,7 @@ import axios from "axios";
 
 const getCurrentUser = async () => {
   const { data } = await axios.get(
-    `https://sawani-backend.onrender.com/api/user`
+    `https://blogging-website-backend-bzho.onrender.com/api/user`
   );
 
   //   console.log("getCurrentUser", { data });

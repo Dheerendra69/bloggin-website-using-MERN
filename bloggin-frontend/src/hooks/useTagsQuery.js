@@ -4,7 +4,7 @@ import axios from "axios";
 
 const getAllTags = async () => {
   const { data } = await axios.get(
-    `https://sawani-backend.onrender.com/api/tags`
+    `https://blogging-website-backend-bzho.onrender.com/api/tags`
   );
 
   //   console.log("getCurrentUser", { data });

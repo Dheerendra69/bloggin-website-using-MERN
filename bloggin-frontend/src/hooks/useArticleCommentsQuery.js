@@ -5,7 +5,7 @@ import { useParams } from "react-router-dom";
 
 const getArticleComments = async (slug) => {
   const { data } = await axios.get(
-    `https://sawani-backend.onrender.com/api/articles/${slug}/comments`
+    `https://blogging-website-backend-bzho.onrender.com/api/articles/${slug}/comments`
   );
 
   //   console.log("getCurrentUser", { data });
